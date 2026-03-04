@@ -1,5 +1,3 @@
-<img src="GeoGemma banner.png" alt="GeoGemma Banner" width="100%"/>
-
 # GeoGemma: Earth Observation with Google Earth Engine & Gemma
 
 **GeoGemma** is an innovative Earth observation application that combines Google Earth Engine's powerful imagery analysis with Gemma. It enables users to explore satellite imagery, analyze geospatial data, and extract insights through natural language prompts. This Solution is built to validate a Google Funded Research on GeoAI by the students of GDG on Campus Institute of Space Technology, Islamabad, Pakistan. 
@@ -26,8 +24,6 @@ These are not the only supported queries—GeoGemma allows a wide range of featu
 **AI Assistant Chat**: Chat with GeoGemma, which helps in analysis interpretation and guidance for the next prompt; discuss Earth science topics with the embedded GeoGemma chat feature.
 
 **Earth Agent:** Try out one of the first geospatial MCP AI agents connected to multiple EO APIs like NASA, USGS, and Copernicus, powered by Gemini, to stay informed about updated climatic events in a selected area.
-
-**Dataset Explorer**: The Dataset Explorer showcases all 900+ datasets from the GEE catalog for instant visualization. It is developed using a RAG (Retrieval-Augmented Generation) architecture, leveraging semantic search capabilities based on keywords. The results are categorized into themes such as DEM, climate, atmosphere, imagery, and more by clicking on it provides instant visualziation of all bands within defined time range with additional resources for the datasets.
 
 **Comparison Analysis:** Compare imagery between different dates to detect changes for informed decision-making.
 
@@ -99,11 +95,6 @@ These are not the only supported queries—GeoGemma allows a wide range of featu
 The frontend would look something like this, with the sample prompt applied: **"Display the thermal variations in Dubai desert for the year 2001."**
 
 <img src="GeoGemma frontend.png" alt="GeoGemma frontend" width="100%"/>
-
-By clicking the Dataset Explorer button, a new window will open, providing an interactive experience with the GEE Data Catalog. Users can explore datasets by selecting specific bands or time ranges. Try searching for keywords like 'DEM', 'climate', or 'Landsat 8 imagery' to begin interacting with the data.
-
-<img src="GEE Dataset explorer.png" alt="GEE dataset explorer" width="100%"/>
-
 
 ## 🏗️ Project Architecture
 

@@ -92,9 +92,13 @@ These are not the only supported queries—GeoGemma allows a wide range of featu
 
 3. Open your browser and navigate to `http://localhost:5173`
 
-The frontend would look something like this, with the sample prompt applied: **"Display the thermal variations in Dubai desert for the year 2001."**
+The frontend would look something like this, with the sample prompt applied: **"Show the NDVI of Manila, Philippines."**
 
-<img src="GeoGemma frontend.png" alt="GeoGemma frontend" width="100%"/>
+![Screenshot](images/workflow1.png)
+
+Sample prompt for Earth Agent: **"Show the air quality of Dubai."**
+
+![Screenshot](images/workflow2.png)
 
 ## 🏗️ Project Architecture
 

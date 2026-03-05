@@ -122,7 +122,11 @@ Sample prompt for Earth Agent: **"Show the air quality of Dubai."**
   - `/api/layers`: Layer management
 - **Prompt Analysis**: The Gemma model is configured with prompt engineering instructions to steer its behavior in extracting the analysis type, location, and date range from the user's prompt. These variables are then passed in JSON format to Earth Engine (EE) modules, where the desired function is executed by Google Earth Engine (GEE), and the resulting tile URL is generated and rendered on the frontend.The sample architecture chart visualizes the workflow.
 
-<img src="architecture diagram.png" alt="architecture diagram" width="100%"/>
+**Sample Response in JSON**
+![Screenshot](images/sampleresponse.jpg)
+
+**Architecture Diagram**
+![Screenshot](images/arch.png)
 
 ## 📁 Project Structure
 
